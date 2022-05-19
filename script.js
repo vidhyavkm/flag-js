@@ -16,5 +16,6 @@ const countryCapital = document.createElement("p");
 countryCapital.innerText = "Capital: New delhi";
 // document.body.append(countryCapital);
 
-document.append(countryName,countryPopulation,countryRegion,countryCapital);
+document.body.append(countryName,countryPopulation,countryRegion,countryCapital);
+
 
